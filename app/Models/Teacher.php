@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Teacher extends Model
 {
-    protected $fillable = ['name']; // Voeg dit toe als je met mass assignment werkt
+    protected $fillable = ['name']; 
 
     public function subjects(): BelongsToMany
     {
